@@ -16,6 +16,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using ParkyApi.Mapper;
+using System.Reflection;
+using System.IO;
 
 namespace ParkyApi
 {
@@ -43,6 +45,9 @@ namespace ParkyApi
                     Title = "Parky Api",
                     Version = "1"
                 });
+                var xmlCommentFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var cmlCommentsFullPath = Path.Combine(AppContext.BaseDirectory, xmlCommentFile);
+                options.IncludeXmlComments(cmlCommentsFullPath);
             });
             services.AddControllers();
         }
@@ -61,6 +66,7 @@ namespace ParkyApi
             app.UseSwaggerUI(options =>
             {
                 options.SwaggerEndpoint("/swagger/ParkyOpenAPISpec/swagger.json", "Parky API");
+                options.RoutePrefix = "";
             });
 
             app.UseRouting();

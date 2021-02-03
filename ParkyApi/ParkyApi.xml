@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ParkyApi</name>
+    </assembly>
+    <members>
+        <member name="M:ParkyApi.Controllers.NationalParksController.GetNationalParks">
+            <summary>
+            Get list of national parks
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyApi.Controllers.NationalParksController.GetNationalPark(System.Int32)">
+            <summary>
+            Get individual national park
+            </summary>
+            <param name="nationalParkId">The Id of the national park</param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyApi.Controllers.NationalParksController.CreateNationalPark(ParkyApi.Models.Dtos.NationalParkDto)">
+            <summary>
+            Create record for national park
+            </summary>
+            <param name="nationalParkDto">The national park object</param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyApi.Controllers.NationalParksController.UpdateNationalPark(ParkyApi.Models.Dtos.NationalParkDto,System.Int32)">
+            <summary>
+            Update record for national park
+            </summary>
+            <param name="nationalParkDto"></param>
+            <param name="nationalParkId">The national park Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyApi.Controllers.NationalParksController.DeleteNationalPark(System.Int32)">
+            <summary>
+            Delete record for national park
+            </summary>
+            <param name="nationalParkId">The national park Id</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
