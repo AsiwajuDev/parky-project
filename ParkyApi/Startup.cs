@@ -37,6 +37,13 @@ namespace ParkyApi
             services.AddScoped<INationalParkRepository, NationalParkRepository>();
             services.AddAutoMapper(typeof(ParkyMappings));
 
+            services.AddSwaggerGen(options => {
+                options.SwaggerDoc("ParkyOpenAPISpec", new Microsoft.OpenApi.Models.OpenApiInfo()
+                {
+                    Title = "Parky Api",
+                    Version = "1"
+                });
+            });
             services.AddControllers();
         }
 
@@ -49,6 +56,12 @@ namespace ParkyApi
             }
 
             app.UseHttpsRedirection();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(options =>
+            {
+                options.SwaggerEndpoint("/swagger/ParkyOpenAPISpec/swagger.json", "Parky API");
+            });
 
             app.UseRouting();
 

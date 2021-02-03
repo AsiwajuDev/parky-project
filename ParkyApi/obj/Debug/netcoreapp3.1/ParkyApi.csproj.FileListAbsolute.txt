@@ -63,3 +63,8 @@ C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\P
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.dll
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.pdb
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.genruntimeconfig.cache
+C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.MvcApplicationPartsAssemblyInfo.cs
