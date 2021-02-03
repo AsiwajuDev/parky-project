@@ -40,7 +40,7 @@ namespace ParkyApi.Controllers
             return Ok(objDto);
         }
 
-        [HttpGet("{nationalParkId:int}")]
+        [HttpGet("{nationalParkId:int}", Name = "GetNationalPark")]
         public IActionResult GetNationalPark(int nationalParkId)
         {
             var obj = _npRepository.GetNationalPark(nationalParkId);
@@ -70,12 +70,6 @@ namespace ParkyApi.Controllers
                 return StatusCode(404, ModelState);
             }
 
-            //check if NationalPark obj is invalid
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
             var nationalParkObj = _mapper.Map<NationalPark>(nationalParkDto);
 
             if (!_npRepository.CreateNationalPark(nationalParkObj))
@@ -84,8 +78,45 @@ namespace ParkyApi.Controllers
                 return StatusCode(500, ModelState);
             }
 
-            return Ok();
+            return CreatedAtRoute("GetNationalPark", new { nationalParkId= nationalParkObj.Id}, nationalParkObj );
+        }
 
+        [HttpPatch("{nationalParkId:int}", Name = "UpdateNationalPark")]
+        public IActionResult UpdateNationalPark([FromBody] NationalParkDto nationalParkDto, int nationalParkId)
+        {
+            //check if NationalPark obj is empty
+            if (nationalParkDto == null || nationalParkId != nationalParkDto.Id)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var nationalParkObj = _mapper.Map<NationalPark>(nationalParkDto);
+
+            if (!_npRepository.UpdateNationalPark(nationalParkObj))
+            {
+                ModelState.AddModelError("", $"Something went wrong when saving the record {nationalParkObj.Name}");
+                return StatusCode(500, ModelState);
+            }
+            return NoContent();
+        }
+
+        [HttpDelete("{nationalParkId:int}", Name = "DeleteNationalPark")]
+        public IActionResult DeleteNationalPark(int nationalParkId)
+        {
+            //check if NationalPark Id exists
+            if (!_npRepository.NationalParkExists(nationalParkId))
+            {
+                return NotFound();
+            }
+            
+            var nationalParkObj = _npRepository.GetNationalPark(nationalParkId);
+
+            if (!_npRepository.DeleteNationalPark(nationalParkObj))
+            {
+                ModelState.AddModelError("", $"Something went wrong when deleting the record {nationalParkObj.Name}");
+                return StatusCode(500, ModelState);
+            }
+            return NoContent();
         }
     }
 }
