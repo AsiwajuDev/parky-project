@@ -44,18 +44,18 @@ namespace ParkyApi
                 {
                     Title = "Parky Api",
                     Version = "1",
-                    Description = "Parky Api",
-                    Contact = new Microsoft.OpenApi.Models.OpenApiContact()
-                    {
-                        Email = "olanrewajuranda@gmail.com",
-                        Name = "Asiwaju",
-                        Url = new Uri("https://asiwaju.now.sh")
-                    },
-                    License  = new Microsoft.OpenApi.Models.OpenApiLicense()
-                    {
-                        Name = "MIT License",
-                        Url = new Uri("https://opensource.org/licenses/MIT")
-                    }
+                    //Description = "Parky Api",
+                    //Contact = new Microsoft.OpenApi.Models.OpenApiContact()
+                    //{
+                    //    Email = "olanrewajuranda@gmail.com",
+                    //    Name = "Asiwaju",
+                    //    Url = new Uri("https://asiwaju.now.sh")
+                    //},
+                    //License  = new Microsoft.OpenApi.Models.OpenApiLicense()
+                    //{
+                    //    Name = "MIT License",
+                    //    Url = new Uri("https://opensource.org/licenses/MIT")
+                    //}
                 });
                 var xmlCommentFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var cmlCommentsFullPath = Path.Combine(AppContext.BaseDirectory, xmlCommentFile);
