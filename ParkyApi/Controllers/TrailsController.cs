@@ -79,7 +79,7 @@ namespace ParkyApi.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesDefaultResponseType]
-        public IActionResult CreateTrail([FromBody] TrailUpsertDto trailDto)
+        public IActionResult CreateTrail([FromBody] TrailCreateDto trailDto)
         {
             //check if Trail obj is empty
             if(trailDto == null)
@@ -116,7 +116,7 @@ namespace ParkyApi.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesDefaultResponseType]
-        public IActionResult UpdateTrail([FromBody] TrailUpsertDto trailDto, int trailId)
+        public IActionResult UpdateTrail([FromBody] TrailUpdateDto trailDto, int trailId)
         {
             //check if Trail obj is empty
             if (trailDto == null || trailId != trailDto.Id)
