@@ -1,6 +1,7 @@
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.AssemblyInfoInputs.cache
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.AssemblyInfo.cs
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.csproj.CoreCompileInputs.cache
+C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\appsettings.json
@@ -10,6 +11,7 @@ C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\P
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\ParkyApi.runtimeconfig.dev.json
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\ParkyApi.dll
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\ParkyApi.pdb
+C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\ParkyApi.xml
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Humanizer.dll
@@ -34,7 +36,11 @@ C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\M
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
@@ -62,10 +68,6 @@ C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\P
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.dll
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.pdb
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.genruntimeconfig.cache
-C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\ParkyApi.xml
 C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\obj\Debug\netcoreapp3.1\ParkyApi.csprojAssemblyReference.cache
+C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\kasiwaju\Documents\Git\parky-project\ParkyApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
