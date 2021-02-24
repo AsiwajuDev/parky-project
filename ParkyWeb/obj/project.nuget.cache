@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "9f5Zf0LPWsC9kSTVrQ13KJm2T5nw4VisyU/PbgdJtZkmIy+hg3O79VS316haZZvDqtq8H1h/HR5h1ShmCJP2nw==",
+  "dgSpecHash": "zF7N/nkfzcSXGSIxc3ZzE27N/jCt+DS+S8wa1rqwJKkZ+dJnW7RhmddlLtRROsD1i31+TvdvYDQ2yoRxkDs2XQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\kasiwaju\\Documents\\Git\\parky-project\\ParkyWeb\\ParkyWeb.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.3\\microsoft.aspnetcore.mvc.razor.extensions.5.0.3.nupkg.sha512",
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.3\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.3.nupkg.sha512",
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.3\\microsoft.aspnetcore.razor.language.5.0.3.nupkg.sha512",
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0\\microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512",
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\microsoft.codeanalysis.common.3.8.0.nupkg.sha512",
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0\\microsoft.codeanalysis.csharp.3.8.0.nupkg.sha512",
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\microsoft.codeanalysis.razor\\5.0.3\\microsoft.codeanalysis.razor.5.0.3.nupkg.sha512",
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\microsoft.extensions.dependencymodel\\5.0.0\\microsoft.extensions.dependencymodel.5.0.0.nupkg.sha512",
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\kasiwaju\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
   "logs": []
 }
