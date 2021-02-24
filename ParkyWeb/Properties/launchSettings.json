@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:61409",
-      "sslPort": 44309
+      "applicationUrl": "http://localhost:61084",
+      "sslPort": 44349
     }
   },
   "profiles": {
@@ -17,6 +17,7 @@
     },
     "ParkyWeb": {
       "commandName": "Project",
+      "dotnetRunMessages": "true",
       "launchBrowser": true,
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
