@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kasiwaju\\Documents\\Git\\parky-project\\ParkyApi\\ParkyApi.csproj": {}
+    "C:\\Users\\kasiwaju\\Documents\\Git\\parky-project\\ParkyWeb\\ParkyWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kasiwaju\\Documents\\Git\\parky-project\\ParkyApi\\ParkyApi.csproj": {
+    "C:\\Users\\kasiwaju\\Documents\\Git\\parky-project\\ParkyWeb\\ParkyWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kasiwaju\\Documents\\Git\\parky-project\\ParkyApi\\ParkyApi.csproj",
-        "projectName": "ParkyApi",
-        "projectPath": "C:\\Users\\kasiwaju\\Documents\\Git\\parky-project\\ParkyApi\\ParkyApi.csproj",
+        "projectUniqueName": "C:\\Users\\kasiwaju\\Documents\\Git\\parky-project\\ParkyWeb\\ParkyWeb.csproj",
+        "projectName": "ParkyWeb",
+        "projectPath": "C:\\Users\\kasiwaju\\Documents\\Git\\parky-project\\ParkyWeb\\ParkyWeb.csproj",
         "packagesPath": "C:\\Users\\kasiwaju\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kasiwaju\\Documents\\Git\\parky-project\\ParkyApi\\obj\\",
+        "outputPath": "C:\\Users\\kasiwaju\\Documents\\Git\\parky-project\\ParkyWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -44,42 +44,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[10.1.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.1.0, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Versioning": {
-              "target": "Package",
-              "version": "[5.0.0-preview.2, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
-              "target": "Package",
-              "version": "[5.0.0-preview.2, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.2, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

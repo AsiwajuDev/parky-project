@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkyApi", "ParkyApi\ParkyApi.csproj", "{372502AD-01F6-4BC7-B2D0-EE2975B3444D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkyWeb", "ParkyWeb\ParkyWeb.csproj", "{86EE2B69-8DEC-4662-AFEC-DA05F87DA25B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{372502AD-01F6-4BC7-B2D0-EE2975B3444D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{372502AD-01F6-4BC7-B2D0-EE2975B3444D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{372502AD-01F6-4BC7-B2D0-EE2975B3444D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86EE2B69-8DEC-4662-AFEC-DA05F87DA25B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86EE2B69-8DEC-4662-AFEC-DA05F87DA25B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86EE2B69-8DEC-4662-AFEC-DA05F87DA25B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86EE2B69-8DEC-4662-AFEC-DA05F87DA25B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
